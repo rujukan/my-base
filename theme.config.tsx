@@ -1,8 +1,8 @@
+import * as React from 'react'
 import { useRouter } from 'next/router'
-import { useConfig } from 'nextra-theme-docs'
+import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 
-/** @type {import('nextra-theme-docs').DocsThemeConfig} */
-export default {
+const config: DocsThemeConfig = {
   project: { link: 'https://github.com/sozonome' },
   docsRepositoryBase: 'https://github.com/sozonome/my-base',
   useNextSeoProps: () => {
@@ -109,10 +109,12 @@ export default {
     ),
   },
   banner: {
-    key: "wussh-olamonde-rename",
-    content: <a href="https://wus.sh" target="_blank">
-      🎉 olamonde is rebranded as wussh. Check it out →
-    </a>,
+    key: 'wussh-olamonde-rename',
+    text: (
+      <a href="https://wus.sh" target="_blank">
+        🎉 olamonde is rebranded as wussh. Check it out →
+      </a>
+    ),
   },
   sidebar: {
     defaultMenuCollapseLevel: 0,
@@ -120,10 +122,7 @@ export default {
   navigation: true,
   toc: {
     float: true,
-    extraContent: true
-  },
-  editLink: {
-    content: 'Edit this page on GitHub',
+    extraContent: true,
   },
   logo: (
     <>
@@ -131,7 +130,7 @@ export default {
       <span className="text-gray-600 font-normal md:inline">sozonome</span>
     </>
   ),
-  editLink: () => 'Edit this page →',
+  editLink: { text: 'Edit this page →' },
   footer: {
     text: (
       <div>
@@ -163,3 +162,5 @@ export default {
   //   { locale: 'id', text: 'Bahasa Indonesia' },
   // ],
 }
+
+export default config
