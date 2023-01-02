@@ -4,7 +4,7 @@ import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   project: { link: 'https://github.com/sozonome' },
-  docsRepositoryBase: 'https://github.com/sozonome/my-base',
+  docsRepositoryBase: 'https://github.com/sozonome/my-base/tree/main',
   useNextSeoProps: () => {
     const { frontMatter } = useConfig()
 
