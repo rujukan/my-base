@@ -2,12 +2,13 @@
 
 Proposing changes through pull request / merge request.
 
-## Keep The Changes Miniscule as Possible
+## Atomic Commits
 
-Change one thing / context at a time. This ensure:
+Keep the changes miniscule as possible, change one thing / context at a time. This ensure:
 
 1. The changes is easily reverted when needed and won't add any complexities.
 2. Ease / speed up the review process as the changes is small and scoped down. Reviewers will also feel more confident to approve smaller and scoped changes rather than big/huge and multiple changes at a time.
+3. Put clear and concise commit message as the changes are specific.
 
 ## Include Related Attachments / References
 
