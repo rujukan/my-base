@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "next": "^13.0.7",
+    "next": "^13.1.1",
     "nextra": "2.0.1",
     "nextra-theme-docs": "2.0.1",
     "react": "^18.2.0",
@@ -29,9 +29,9 @@
   },
   "devDependencies": {
     "critters": "^0.0.16",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.0.4",
-    "prettier": "^2.8.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
     "standard-version": "^9.5.0"
   },
   "prettier": {
