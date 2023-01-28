@@ -29,3 +29,10 @@ references:
 
 - [Chakra UI](https://chakra-ui.com)
 - [Material UI](https://mui.com)
+- [Mantine](https://mantine.dev/)
+- [ariakit](https://ariakit.org/)
+- [ui/shadcn](https://ui.shadcn.com/)
+- [Radix UI Primitives](https://www.radix-ui.com/)
+- [Tamagui](https://tamagui.dev/)
+- [Tremor](https://www.tremor.so/)
+- [Headless UI](https://headlessui.com/)
