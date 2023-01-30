@@ -12,16 +12,26 @@
 
 - [`lodash`](https://lodash.com/)
 - [`nanoid`](https://www.npmjs.com/package/nanoid)
-- [`yup`](https://github.com/jquense/yup#readme)
 
 #### State Management
 
 - [`zustand`](https://docs.pmnd.rs/zustand/getting-started/introduction)
 - [`@preact/signals`](https://preactjs.com/blog/introducing-signals/)
 
+##### Form State Management
+
+- [`react-hook-form`](https://react-hook-form.com/)
+
 ### Data Fetching
 
 - [`axios`](https://axios-http.com/)
+- [`ofetch`](https://www.npmjs.com/package/ofetch)
+
+### Schema Validator
+
+- [`zod`](https://zod.dev/)
+- [`superstruct`](https://docs.superstructjs.org/)
+- [`yup`](https://github.com/jquense/yup#readme)
 
 ### Testing
 
