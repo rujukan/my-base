@@ -2,6 +2,12 @@
 
 Some git commands I frequently use but sometimes keep forgetting.
 
+## checkout to main, pull latest, and clear other branches
+
+```bash
+git checkout main && git pull && git branch -D $(git branch)
+```
+
 ## restore
 
 ```bash
