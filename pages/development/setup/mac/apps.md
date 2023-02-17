@@ -1,4 +1,4 @@
-# Apps / Utilities
+# Mac Apps / Utilities
 
 Some Mac apps / utilities I use to support my productivity / usage with Mac
 
