@@ -29,6 +29,7 @@ Input, Select, NumberInput
 1. For general purpose inputs, use `Input` component.
 2. For numeric inputs and expecting form state to also receive number, use `NumberInput` component.
 3. For formatted number input, use `NumericInput` of `react-number-format` and set customInput prop as `Input`.
+4. For switch toggle input, use `valuePropName="checked"` on the `Form.Item` wrapper of the switch.
 
 ## Working with Array fields
 
