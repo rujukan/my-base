@@ -1,14 +1,26 @@
 {
   "index": "Index",
+  "-- Product": {
+    "type": "separator",
+    "title": "Product"
+  },
   "productivity": "Productivity",
   "dev": "Software Development",
-  "finance": "Finance",
   "design": "Design",
-  "business": "Business",
   "multimedia": "Multimedia",
-  "entertainment": "Entertainment",
+  "-- Biz, Finances, Tech": {
+    "type": "separator",
+    "title": "Finances, Tech"
+  },
+  "finance": "Finance",
+  "business": "Business",
   "security": "Personal Data Security",
   "blockchain": "Blockchain",
+  "-- Other": {
+    "type": "separator",
+    "title": "Other"
+  },
+  "entertainment": "Entertainment",
   "self": "Self Appreciation",
   "other": "other"
 }

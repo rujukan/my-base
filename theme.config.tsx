@@ -118,6 +118,7 @@ const config: DocsThemeConfig = {
   },
   sidebar: {
     defaultMenuCollapseLevel: 0,
+    toggleButton: true,
   },
   navigation: true,
   toc: {

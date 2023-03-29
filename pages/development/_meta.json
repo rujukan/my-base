@@ -1,10 +1,22 @@
 {
   "index": "Index",
+  "-- Platforms": {
+    "type": "separator",
+    "title": "Platforms"
+  },
   "web": "Web",
   "mobile": "Mobile",
-  "git": "Git",
+  "-- Languages": {
+    "type": "separator",
+    "title": "Languages"
+  },
   "typescript": "TypeScript",
   "dart": "Dart",
+  "-- Resources": {
+    "type": "separator",
+    "title": "Resources / Misc"
+  },
+  "git": "Git",
   "byte-sized": "Byte Sized Contents",
   "practices": "Engineering Practices",
   "courses": "Courses"
