@@ -6,7 +6,7 @@ Let's use a restaurant as an analogy.
 - Our table : client side
 - The kitchen : server side
 
-## TL;DR
+## [Draft] TL;DR
 
 | Rendering Type | Rendering / Page Generations Rendering Happens at | Rendering / Page Generation Happens during             | Data Fetching / Network Call / Data availability happens at  | Data Fetching happens during (freshness) | Data Freshness                                          | JS Required for Rendering | Examples                                                                                                                                |
 | -------------- | ------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -14,6 +14,8 @@ Let's use a restaurant as an analogy.
 | CSR            | Client Side (user's browser)                      | Build Time, Client Side (after Hydration)              | [optional] Client Side (user's browser)                      | Runtime / Static / Hardcoded             | Every Request / Depends on the API's Cache header       | ✅                        | CRA, Vite React                                                                                                                         |
 | SSR            | Server Side and Hydrated at Client Side           | Build Time, Server Side, then Hydration at Client Side | Server Side, could be partially Include Client Side fetching | Runtime                                  | Every Request / Depends on the API's Cache header       | 🟧                        | Next.js SSR (getServerSideProps), Gatsby SSR, Remix, Astro                                                                              |
 | ISR            | Server Side and Hydrated at Client Side           | Build Time, Server Side, then Hydration at Client Side | Server Side, could be partially include Client Side Fetching | Runtime (after passing stale interval)   | Depends on the revalidate interval / API's cache header | 🟧                        | Next.js ISR, Gatsby DSR                                                                                                                 |
+
+These terms could be obsolete in the near future with RSC streamings etc.
 
 ## CSR (Client Side Rendering)
 
