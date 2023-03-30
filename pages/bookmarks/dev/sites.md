@@ -34,6 +34,7 @@ Some sites related to development.
 | [Laws of UX](https://lawsofux.com)                           | a collection of best practices that designers can consider when building user interfaces.                                                                |
 | [Web Browser Engineering](https://browser.engineering/)      | Web browser engineering (a book)                                                                                                                         |
 | [How HTTPs Works](https://howhttps.works/)                   | A cat explains how HTTPS works...in a comic! 😻                                                                                                          |
+| [LearningTypescript](https://www.learningtypescript.com/)    | TypeScript learning book                                                                                                                                 |
 
 [⬆️ Back to Categories](/bookmarks)
 
